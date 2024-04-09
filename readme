@@ -1,0 +1,24 @@
+    --- Universitat Politècnica de Catalunya - Grado de Inteligencia Artificial ---    
+
+Autores: Eduard Barnadas y Pablo Barrenechea
+Asignatura: Procesamiento del Lenguaje Humano
+
+---------------------------------------------------------------------------------------
+Detección de Opinión en Reviews de Películas con Modelos Supervisados y No Supervisados
+
+Los dos programas básicos son un "notebook" de "jupyter", cada uno con sus diferentes 
+explicaciones sobre las distintas ejecuciones y funciones. 
+
+En el primero de ellos, se prepraran y entrenan 4 modelos distintos, mientras que en
+el segundo se entrena un único modelo.
+
+En el directorio ./bin se encontrarán los binarios con distintas instancias de búsquedas
+greedy de estos modelos, realizadas para escoger los distintos hiperparámetros.
+En caso de no querer ejecutar las búsquedas para estos 5 modelos ya entrenados, 
+asegurarse de establecer el parámetro "hacer_grid_search" de la función
+grid_search a False.
+
+En el directorio ./Images/ se encuentran algunas de las imágenes generadas en el primer
+notebook.
+ 
+
